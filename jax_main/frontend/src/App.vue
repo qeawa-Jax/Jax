@@ -1,11 +1,14 @@
 <script setup>
-  import {NButton} from 'naive-ui'
+  import { NMenu } from 'naive-ui'
 </script>
 
+
 <template>
-  <NButton color="#8a2be2">naive-ui按钮</NButton>
+<div id="app">
+  <router-view></router-view>
+</div>
 </template>
 
-<style>
+<script>
 
-</style>
+</script>

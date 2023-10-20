@@ -17,7 +17,7 @@ func main() {
 
 	// Create application with options
 	err := wails.Run(&options.App{
-		Title:  "Jax_main",
+		Title:  "Jax-快速生成web服务",
 		Width:  1024,
 		Height: 768,
 		AssetServer: &assetserver.Options{
